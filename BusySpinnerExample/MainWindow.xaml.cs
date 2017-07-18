@@ -23,6 +23,9 @@ namespace BusySpinnerExample
         public MainWindow()
         {
             InitializeComponent();
+            BusySpinner busySpinner = new BusySpinner(Brushes.White);
+            BusySpinnerViewbox.Child = busySpinner.BusySpinnerCanvas;
+            busySpinner.AnimationStart();
         }
     }
 }

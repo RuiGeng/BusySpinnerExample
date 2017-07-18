@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:BusySpinnerExample"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    
+    <Grid Background="Black">
+
+        <Viewbox x:Name="BusySpinnerViewbox" Width="50" Height="50">
+
+        </Viewbox>
+
     </Grid>
 </Window>
